@@ -1,0 +1,43 @@
+Abari Dodo
+Nantes, 44300, France | @ dodo.mamane.abari@gmail.com |  +33 605 564 616 |  abari.ai
+ïlinkedin.com/in/abari | § github.com
+Embedded systems & AI
+Je suis Abari Dodo, ingénieur junior en systèmes embarqués et en intelligence artificielle. Je peux travailler sur
+des projets purement liés aux systèmes embarqués, des projets purement liés à l’IA, ou une combinaison des
+deux.
+Education
+× Université Lyon 1, M.Sc in Intelligence Artificielle Sept 2022 – oct 2023
+• Coursework: Machine learning, Data mining, AI and Robotics, Multi-agents systems, Bio-inspired AI
+× Ecole Nationale de Sciences Appliquées Fès-Maroc, Diplôme ingénieur
+Systèmes embarqués
+Sept 2019 – Jul 2022
+• Coursework: Computer architecture, Embedded OS, FPGA, Embedded software, SoC-MPSoC, RTOS,
+Embedded sys Architecture, AI, Embedded Linux
+× Ecole Nationale de Sciences Appliquées, Classes Préparatoires Sept 2017 – Jul 2019
+Experience
+R&D AI, intern , Segula technologies – Cherbourg, France Apr 2023 – Oct 2023
+• Implémentation de modèles d’apprentissage automatique pour atténuer les impacts des incertitudes dans les
+données d’entrée d’un système de gestion de l’énergie.
+• Programmation d’une plateforme pour la collecte, l’entraînement et le test de modèles en Python.
+Computer vision & IoT, intern, Expleo Group – Tanger, Morocco Fev 2022 – Jul 2022
+• Implémentation d’un système de gestion du trafic routier basé sur des algorithmes de vision par ordinateur.
+Embedded software, intern, ENSA – Fez, Morocco Jul 2020 – Aug 2020
+• Prise en main du logiciel open source Ardupilot
+• Modification du code pour implémenter des contrôleurs personnalisés et test sur des drones.
+Technologies
+Prog lang: C++, C, Python
+Embedded Hardware: ARM μC, FPGA, STM32, sensors, UART, SPI, I2C,
+Embedded Software: Embedded C, Embedded Linux, FreeRTOS, Linux embarqué, OpenCV
+IA & Edge AI: PyTorch, TensorFlow lite, Edge impulse
+Projects
+> SysCov github
+• Système électronique numérique pour la détection et le comptage de personnes.
+6 Dr.Eye github
+• Application pour smartphone permettant de détecter le stade de la rétinopathie diabétique à partir du fond
+d’œil.
+> MicroAI github
+• Framework implémentant des algorithmes d’apprentissage automatique et d’autres utilitaires pour Edge
+devices.
+Langues
+• Anglais: Professionnel
+• Français: Bilingue
