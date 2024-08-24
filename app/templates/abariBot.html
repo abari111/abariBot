@@ -5,11 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Conversation Display</title>
     <style>
-        body {
+         _body {
             font-family: Arial, sans-serif;
             background-color: #f4f4f4;
             text-align: center;
             padding: 50px;
+        } 
+        body{
+            font-family: 'Press Start 2P', 'IBM Plex Mono', monospace;
+            font-size: 16px;
+            color: #00ff00; /* classic green color often used in old terminals */
+            background-color: #000000; /* black background like an old console */
+            line-height: 1.5;
+            text-align: center;
+            padding: 50px;
+        }
+
+        .intro {
+            color: #cdbaa4
         }
         .conversation {
             display: inline-block;
@@ -24,37 +37,7 @@
         .message {
             margin-bottom: 20px;
         }
-        .you {
-            font-weight: bold;
-            color: #4CAF50;
-        }
-        .me {
-            font-style: italic;
-            color: #2196F3;
-        }
-        form {
-            margin-top: 20px;
-        }
-        input[type="text"] {
-            padding: 10px;
-            font-size: 16px;
-            border: 1px solid #ddd;
-            border-radius: 5px;
-            width: calc(100% - 22px);
-            box-sizing: border-box;
-        }
-        input[type="submit"] {
-            padding: 10px 20px;
-            font-size: 16px;
-            color: #fff;
-            background-color: #4CAF50;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-        }
-        input[type="submit"]:hover {
-            background-color: #45a049;
-        }
+
 
         #assistant{
             color: green;
@@ -65,19 +48,20 @@
     </style>
 </head>
 <body>
+    <div class="conversation">
     <h1>AbariBot</h1>
-    <p>
+    <p class="intro">
         Let me Tell you something about Abari.
         Genuine Guy Have never met in my life (By the way I have One)
         I accept to be his assistant because I believe in his talent. I hope
         You will too. Ask me anything About Him.
     </p>
-    <div class="conversation">
-        <p class="Assistant"><em id="assistant">Assistant</em>: Hello, Ask anything about Abari.</p>
+    
+        <p class="AbariBot"><em id="assistant">Assistant</em>: Hello, Ask anything about Abari.</p>
         {% for you, ass in conversation %}
         <div class="message">
             <p class="You"><em id="you">You</em>: {{ you }}</p>
-            <p class="Assistant"><em id="assistant">Assistant</em>: {{ ass }}</p>
+            <p class="AbariBot"><em id="assistant">Assistant</em>: {{ ass }}</p>
         </div>
         {% endfor %}
 
