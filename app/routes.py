@@ -1,6 +1,6 @@
 from flask import Flask, render_template, request, redirect, url_for
-from utils import chat
-
+# from utils import chat
+from query import query
 app = Flask(__name__)
 conversation = [
 ]
@@ -14,7 +14,8 @@ def index():
     if request.method == 'POST':
         user_message = request.form['user_message']
         question = prompt + user_message
-        bot_response = chat.invoke({"question": question})['answer']
+        # bot_response = chat.invoke({"question": question})['answer']
+        bot_response = query(question)
         conversation.append((user_message, bot_response))
         return redirect(url_for('index'))
     return render_template('abariBot.html', conversation=conversation)

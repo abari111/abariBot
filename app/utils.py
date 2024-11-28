@@ -45,13 +45,14 @@ def chat_with_abari(docs_path):
     conversation_chain = rag_system(llm, memory, vectorstore)
     return conversation_chain
 
-chat = rag_system = chat_with_abari('docs/abari.txt')
+# chat = rag_system = chat_with_abari('docs/abari.txt')
 if __name__=="__main__":
-    rag_system = chat_with_abari('docs/abari.txt')
-    while True:
-        query = input("You: ")
-        result = rag_system.invoke({"question": query})
-        answer = result["answer"]
-        print("Abari assistant: " + answer)
-        
+    # rag_system = chat_with_abari('docs/abari.txt')
+    # while True:
+    #     query = input("You: ")
+    #     result = rag_system.invoke({"question": query})
+    #     answer = result["answer"]
+    #     print("Abari assistant: " + answer)
+    data = docs_splitter("docs/abari.txt")
+    print(type(data))
         
