@@ -1,12 +1,6 @@
 flask
 SQLAlchemy==1.4
 flask-restx==0.5.1
-# langchain-openai
-# langchain 
-# langchain_community 
-# langchain_chroma
-# tiktoken
-# faiss-cpu
 pinecone
 openai
 python-dotenv
