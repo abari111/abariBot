@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AbariBot Chat</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+        body {
+            font-family: 'Press Start 2P', monospace;
+            font-size: 16px;
+            background-color: #000;
+            color: #00ff00;
+            text-align: center;
+            padding: 20px;
+            margin: 0;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            text-align: left;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .header h1 {
+            color: #00ff00;
+            font-size: 2em;
+            margin: 0;
+        }
+
+        .header p {
+            color: #cdbaa4;
+            font-size: 0.9em;
+        }
+
+        .conversation {
+            background-color: #111;
+            border: 1px solid #00ff00;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 0 15px rgba(0, 255, 0, 0.5);
+            overflow-y: auto;
+            max-height: 400px;
+        }
+
+        .message {
+            margin-bottom: 20px;
+        }
+
+        .message p {
+            margin: 5px 0;
+        }
+
+        .assistant {
+            color: #00ff00;
+        }
+
+        .user {
+            color: #0080ff;
+        }
+
+        form {
+            margin-top: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+        }
+
+        input[type="text"] {
+            font-family: 'Press Start 2P', monospace;
+            font-size: 14px;
+            padding: 10px;
+            width: 70%;
+            border: 1px solid #00ff00;
+            border-radius: 5px;
+            background-color: #000;
+            color: #00ff00;
+        }
+
+        input[type="submit"] {
+            font-family: 'Press Start 2P', monospace;
+            font-size: 14px;
+            padding: 10px 20px;
+            border: 1px solid #00ff00;
+            border-radius: 5px;
+            background-color: #00ff00;
+            color: #000;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #0080ff;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>AbariBot</h1>
+            <p>Let me tell you something about Abari. Genuine guy, I've never met anyone like him in my life (by the way, I have only met one). I became his assistant because I believe in his talent. I hope you will too. Ask me anything about him.</p>
+        </div>
+
+        <div class="conversation" id="conversation">
+            <div class="message">
+                <p class="assistant"><strong>Assistant:</strong> Hello, ask me anything about Abari.</p>
+            </div>
+            <!-- Replace this block dynamically with a server or JS -->
+            {% for you, ass in conversation %}
+            <div class="message">
+                <p class="user"><strong>You:</strong> {{ you }}</p>
+                <p class="assistant"><strong>Assistant:</strong> {{ ass }}</p>
+            </div>
+            {% endfor %}
+        </div>
+
+        <form method="post">
+            <input type="text" name="user_message" placeholder="Type your message here..." required>
+            <input type="submit" value="Send">
+        </form>
+    </div>
+</body>
+</html>

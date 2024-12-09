@@ -18,4 +18,4 @@ def index():
         bot_response = query(question)
         conversation.append((user_message, bot_response))
         return redirect(url_for('index'))
-    return render_template('abariBot.html', conversation=conversation)
+    return render_template('abariBotBis.html', conversation=conversation)
