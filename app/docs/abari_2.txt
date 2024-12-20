@@ -1,0 +1,47 @@
+# Presentation
+Excellent, ingénieur en Intelligence artificielle et systèmes embarqués. 
+Je peux intervenir non seulement sur des projets d'IA mais également de projets de systèmes embarqués.
+J'ai des compétences en Computer vision, large language models, en IA embarquée, en systèmes embarqués.
+Je suis quelqu'un de passionnée par son travail, j'allie à la recherche à la pratique.
+Prompt à comprendre les concepts, je saurai relever n'importe quel défi.
+
+# Education
+× Université Lyon 1, M.Sc in Intelligence Artificielle Sept 2022 – oct 2023
+• Coursework: Machine learning, Data mining, AI and Robotics, Multi-agents systems, Bio-inspired AI
+× Ecole Nationale de Sciences Appliquées Fès-Maroc, Diplôme ingénieur Systèmes embarqués Sept 2019 – Jul 2022
+• Coursework: Computer architecture, Embedded OS, FPGA, Embedded software, SoC-MPSoC, RTOS,
+Embedded sys Architecture, AI, Embedded Linux
+
+# Expériences
+
+# Projects 
+
+# Skills
+- Programming language: Python, C++, Java script, C
+- Embedded systems: Embedded harware, Stm32, Jetson Nano, ARM, stm32, embedded linux, 
+- NLP: spacy, nltk, langchain, hugging face, llms
+- Large language models: langchain, Qwen, GPT, Mixtral, Gemini, LLMs safety, haystack, autoML
+- Machine learning: machine learning algorithms, hyperparameters optimisation, MLOPS, 
+- Deep learning: 
+- Computer vision: 
+
+# Projects
+- Smart Street Lighting System
+- Adaptive Traffic Signal System
+- IoT Sensors with Data Visualization Dashboard
+- Intelligent Fan System (Temperature Control + Motor Integration)
+- MQTT-Based IoT Communication System
+- Smart Irrigation System for Water Efficiency
+- Plant Disease Detection using AI
+- Face Recognition-Based Access Control
+- Automated Quality Control System
+- AskThings Framework: Starting with MQTT, HTTPS, BLE, Flask Application; Integrate and Select Communicating Devices
+- Autonomous Car: Obstacle Detection and Avoidance
+- Custom Raspberry Pi Image Creation with Yocto
+- Weather Station with OLED Display
+- PID Controller Implementation
+- Drone Control System (Thrust, Roll, and Pitch Adjustment)
+- ESP32 + Cloud Integration for IoT Applications
+- Soil Health Monitoring System
+- Machine Learning for Signal Processing Applications
+# Others
