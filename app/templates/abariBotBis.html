@@ -59,6 +59,7 @@
 
         .assistant {
             color: #00ff00;
+            color: white;
         }
 
         .user {
@@ -116,7 +117,7 @@
             {% for you, ass in conversation %}
             <div class="message">
                 <p class="user"><strong>You:</strong> {{ you }}</p>
-                <p class="assistant"><strong>Assistant:</strong> {{ ass }}</p>
+                <p class="assistant"><strong style="color:green">Assistant:</strong><img src="static/robot.webp" alt="Description of GIF" width="30" height="20" style="border: 2px solid black;"> {{ ass }}</p>
             </div>
             {% endfor %}
         </div>
